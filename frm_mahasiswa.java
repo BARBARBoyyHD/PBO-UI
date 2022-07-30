@@ -220,6 +220,18 @@ public class frm_mahasiswa extends javax.swing.JFrame {
 
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
 
+        txt_masukan_data.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_masukan_dataActionPerformed(evt);
+            }
+        });
+
+        txt_nama.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_namaActionPerformed(evt);
+            }
+        });
+
         tabel_mahasiswa.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -561,6 +573,14 @@ public class frm_mahasiswa extends javax.swing.JFrame {
             setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         }            // TODO add your handling code here:
     }//GEN-LAST:event_btn_keluarActionPerformed
+
+    private void txt_masukan_dataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_masukan_dataActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_masukan_dataActionPerformed
+
+    private void txt_namaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_namaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_namaActionPerformed
 
     /**
      * @param args the command line arguments
